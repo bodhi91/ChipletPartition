@@ -6,10 +6,6 @@ An example of an SoC netlist is the [Mempool testcase](https://github.com/bodhi9
 ## DISCLAIMER ##
 This repository exists for the sole purpose of a double blinded ISPD publication review. 
 
-
-### Overall Flow ###
-The overall flow is shown below: ![shown here](https://github.com/bodhi91/ChipletPart/blob/main/ChipletPart_flow.png).
-
 ### Review Directions ###
 1. The source codes to ChipletPart are in the directory ```graph_part```
 2. The testcases are uploaded in the directory ```testcases```
