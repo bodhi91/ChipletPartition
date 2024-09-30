@@ -7,8 +7,8 @@ An example of an SoC netlist is the [Mempool testcase](https://github.com/bodhi9
 This repository exists for the sole purpose of a double-blinded ISPD publication review. 
 
 ### Review Directions ###
-1. The source codes to ChipletPart are in the directory ```src```
-2. The testcases are uploaded in ```testcases```
+1. The source code for ChipletPart is in the directory ```src```
+2. The testcases are in the directory ```testcases```
 3. The netlist generator is implemented in the script ```generateSystemDefinitionMemCPUScale.py```
 To generate a testcase wih Z wafer scale, A tiles, B cores, C shared memories, D area scale and E power scale, we run the script:
 ```python3 systemMempoolSystemDefinition.py Z A B C D E```
@@ -17,7 +17,7 @@ To generate a testcase wih Z wafer scale, A tiles, B cores, C shared memories, D
 
 6. ChipletPart has depencies on ```METIS```, ```Python``` and ```GKLib```.
 
-7. The run scripts are uploaded in ```test```. 
+7. The run scripts are in the directory ```test```. 
 
 ### List of testcases ###
 
