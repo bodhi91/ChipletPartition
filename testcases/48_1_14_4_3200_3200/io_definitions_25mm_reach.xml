@@ -1,9 +1,4 @@
 <!--
-    Filename: io_definitions.xml
-    Author: Alexander Graening
-    Affiliation: University of California, Los Angeles
-    Email: agraening@ucla.edu
-
     IO Definition Format:
         - IO Type: IO type is defined with the type parameter. This is the name
             which must be referenced in the netlist.

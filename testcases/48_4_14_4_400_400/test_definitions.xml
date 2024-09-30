@@ -1,9 +1,4 @@
 <!--
-    Filename: test_definitions.xml
-    Author: Alexander Graening
-    Affiliation: University of California, Los Angeles
-    Email: agraening@ucla.edu
-
     Test Process Definition Format:
         - Name: The name listed here is the name that should be referenced in the system definition.
         - Test Self: This is a boolean value that determines if the chip is individually tested.

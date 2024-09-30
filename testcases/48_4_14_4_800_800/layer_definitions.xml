@@ -1,9 +1,4 @@
 <!--
-    Filename: layer_definitions.xml
-    Author: Alexander Graening
-    Affiliation: University of California, Los Angeles
-    Email: agraening@ucla.edu
-
     Layer Definition Format:
         - Name: The name listed here is the name that should be referenced stackup in the system definition.
         - Active: This flag indicates whether or not this is a layer with transistors. Currently unused.

@@ -1,9 +1,4 @@
 <!--
-    Filename: wafer_process_definitions.xml
-    Author: Alexander Graening
-    Affiliation: University of California, Los Angeles
-    Email: agraening@ucla.edu
-
     Wafer Process Definition Format:
         - Name: The name listed here is the name that should be referenced in the system definition.
         - Wafer Diameter: This is the diameter of the wafer in mm.

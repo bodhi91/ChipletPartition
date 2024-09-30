@@ -1,12 +1,3 @@
-# ====================================================================================
-# Filename: readDesignFromFile.py
-# Author: Alexander Graening
-# Affiliation: University of California, Los Angeles
-# Email: agraening@ucla.edu
-#
-# Description: This file contains the functions to read the given library .xml files.
-# ====================================================================================
-
 import design as d
 import numpy as np
 import xml.etree.ElementTree as ET

@@ -7,10 +7,7 @@ def generate_physical_definition_file(num_v100s, interposer_assembly_process):
 
     filename = "v100_" + str(num_v100s) + ".xml"
 
-    file_header = ("<!--\n\tFilename: " + filename + "\n\tAuthor: Alexander Graening" 
-                    + "\n\tAffiliation: University of California, Los Angeles"
-                    + "\n\tEmail: agraening@ucla.edu\n\n\tSystem Definition Format:"
-                    + "\n\t\t- Black Box Parameters (Area, Cost, Quality, Power): These are the"
+    file_header = ("<!--\n\t\t- Black Box Parameters (Area, Cost, Quality, Power): These are the"
                     + "\n\t\t\tblack box parameters for the chip. These can be used to override"
                     + "\n\t\t\tthe computed parameters. For normal operation of the cost model to"
                     + "\n\t\t\tcompute these parameters, set these to the empty string \"\". The"
@@ -185,10 +182,7 @@ def generate_netlist(num_v100s, inter_node_bandwidth, inter_package_bandwidth, i
 
     filename = "v100_netlist_" + str(num_v100s) + ".xml"
 
-    file_header = ("<!--\n\tFilename: " + filename + "\n\tAuthor: Alexander Graening"
-                   + "\n\tAffiliation: University of California, Los Angeles"
-                   + "\n\tEmail: agraening@ucla.edu\n"
-                   + "\n\tNetlist Format:"
+    file_header = ("<!--\n\tNetlist Format:"
                    + "\n\t\t- IO Definition Reference: IO type is defined with the type parameter."
                    + "\n\t\t\tThis name must reference an IO type in the io definition file."
                    + "\n\t\t- Directionality: If the IO type referenced from the io definition"

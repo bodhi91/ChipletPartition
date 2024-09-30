@@ -1,15 +1,3 @@
-# ====================================================================================
-# Filename: design.py
-# Author: Alexander Graening
-# Affiliation: University of California, Los Angeles
-# Email: agraening@ucla.edu
-#
-# Description: This file contains the class definitions and functions for the cost model.
-#              Note that changing the definition of a class also requires modifications in 
-#              readDesignFromFile.py and the associated .xml file(s). More substantial
-#              changes may also require modifications to load_and_test_design.py.
-# ====================================================================================
-
 import numpy as np
 import math
 import sys

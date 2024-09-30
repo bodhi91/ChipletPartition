@@ -1,9 +1,4 @@
 <!--
-    Filename: assembly_process_definitions.xml
-    Author: Alexander Graening
-    Affiliation: University of California, Los Angeles
-    Email: agraening@ucla.edu
-
     Assembly Process Definition Format:
         - Name: The name listed here is the name that should be referenced in the system definition.
         - Materials Cost per mm2: This is given in units of $/mm^2. This is the

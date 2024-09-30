@@ -1,12 +1,3 @@
-# ====================================================================================
-# Filename: load_and_test_design.py
-# Author: Alexander Graening
-# Affiliation: University of California, Los Angeles
-# Email: agraening@ucla.edu
-#
-# Description: This is the main file used to launch loading a single design and viewing cost.
-# ====================================================================================
-
 import design as d
 import readDesignFromFile as readDesign
 import sys
