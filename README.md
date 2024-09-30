@@ -7,14 +7,14 @@ An example of an SoC netlist is the [Mempool testcase](https://github.com/bodhi9
 This repository exists for the sole purpose of a double blinded ISPD publication review. 
 
 ### Review Directions ###
-1. The source codes to ChipletPart are in the directory ```graph_part```
-2. The testcases are uploaded in the directory ```testcases```
-3. The netlist generator file is implemented in the script ```generateSystemDefinitionMemCPUScale.py```
+1. The source codes to ChipletPart are in the directory ```src```
+2. The testcases are uploaded in ```testcases```
+3. The netlist generator is implemented in the script ```generateSystemDefinitionMemCPUScale.py```
 To generate a testcase wih Z wafer scale, A tiles, B cores, C shared memories, D area scale and E power scale, we run the script:
 ```python3 systemMempoolSystemDefinition.py Z A B C D E```
 5. To generate the hypergraph file from the SoC netlist, use the script ```xml_to_hypergraph.py```
-6. The source codes of ChipletPart are uploaded in the directory ```graph_part```. ChipletPart has depencies on ```METIS```, ```Python``` and ```GKLib```.
-7. The run scripts are uploaded in the directory ```test```. 
+6. The source codes of ChipletPart are uploaded in ```graph_part```. ChipletPart has depencies on ```METIS```, ```Python``` and ```GKLib```.
+7. The run scripts are uploaded in ```test```. 
 
 ### List of testcases ###
 
